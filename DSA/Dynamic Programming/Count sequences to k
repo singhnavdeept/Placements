@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+public:
+
+    long long countWays(vector<int>& nums, int k)
+    {
+        map<long long,long long> dp;
+
+        dp[1] = 1;
+
+        for(int x : nums)
+        {
+            map<long long,long long> next = dp;
+
+            for(auto [val, ways] : dp)
+            {
+                next[val * x] += ways;
+
+                if(val % x == 0)
+                    next[val / x] += ways;
+            }
+
+            dp.swap(next);
+        }
+
+        return dp[k];
+    }
+};
