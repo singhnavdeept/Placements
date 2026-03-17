@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"3bf7a9579affd0c6","type":"text","text":"Goals","x":-160,"y":-280,"width":250,"height":60},
+		{"id":"b93bce39774d6263","type":"text","text":"Maintaining a Schedule ","x":-460,"y":-100,"width":250,"height":60},
+		{"id":"9bb945b1b7d9ef05","type":"text","text":"Practice","x":-100,"y":-100,"width":250,"height":60},
+		{"id":"3849863813c1a115","type":"text","text":"Waking at a consistent time \n5:30 AM \nSleeping at 11 PM ","x":-604,"y":25,"width":250,"height":115},
+		{"id":"54bc86baf8538715","type":"text","text":"Diet \nEating Plan and sticking to it \nNO sugar \n","x":-464,"y":180,"width":259,"height":140},
+		{"id":"2aa47d25ead3046a","type":"text","text":"150 new questions in 30 days \n5 every day (Platform independent )\nlearn 1 new algorithm or pattern every 2 days ","x":-253,"y":68,"width":250,"height":182},
+		{"id":"2540ad0e02644083","type":"text","text":"Practice voice .\n\tTonality\n\tPitch\n\tArticulation\n\t","x":22,"y":79,"width":250,"height":141},
+		{"id":"d3a47522903cc62a","type":"text","text":"Building Projects \n","x":400,"y":-100,"width":250,"height":60},
+		{"id":"d468461955e910eb","x":300,"y":40,"width":210,"height":110,"type":"text","text":"Learn Phase \n\tLearn FastAPI\n\tlearn Spark\n\t so on and on \n\t "},
+		{"id":"9bfef4fb7cf33467","x":557,"y":57,"width":303,"height":143,"type":"text","text":"30  days - 5 projects \n-Database Projects (SQL)\n-End to End Data Engineering Project (code along )\nRest would also be end to end Data \n\n"},
+		{"id":"a2de618461fbde9c","x":-97,"y":528,"width":250,"height":60,"type":"text","text":"Time Allocation \n"},
+		{"id":"8080fbc8eabc6c76","x":-427,"y":447,"width":250,"height":60,"type":"text","text":"1 hour of Learning and implementation\n"},
+		{"id":"2e5ae966a18a4009","x":-572,"y":665,"width":250,"height":60,"type":"text","text":"3 Hours For Practicing those 5 questions \n"},
+		{"id":"f25b85168506f2a6","x":-209,"y":722,"width":250,"height":158,"type":"text","text":"2 hours to Implementation and reading open source Projects\n"}
+	],
+	"edges":[
+		{"id":"1a7117a6f2e4ec0b","fromNode":"3bf7a9579affd0c6","fromSide":"bottom","toNode":"b93bce39774d6263","toSide":"top"},
+		{"id":"b7e30636931ae6d1","fromNode":"3bf7a9579affd0c6","fromSide":"bottom","toNode":"9bb945b1b7d9ef05","toSide":"top"},
+		{"id":"352245af60a622ae","fromNode":"3bf7a9579affd0c6","fromSide":"bottom","toNode":"d3a47522903cc62a","toSide":"top"},
+		{"id":"3d18ef787ff40f2a","fromNode":"b93bce39774d6263","fromSide":"bottom","toNode":"3849863813c1a115","toSide":"top"},
+		{"id":"5d6ba6d5c45537d2","fromNode":"b93bce39774d6263","fromSide":"bottom","toNode":"54bc86baf8538715","toSide":"top"},
+		{"id":"cfc041a6882fe126","fromNode":"9bb945b1b7d9ef05","fromSide":"bottom","toNode":"2aa47d25ead3046a","toSide":"top"},
+		{"id":"71dfc1453fdedefc","fromNode":"9bb945b1b7d9ef05","fromSide":"bottom","toNode":"2540ad0e02644083","toSide":"top"},
+		{"id":"cc4dcdaef28f275f","fromNode":"d3a47522903cc62a","fromSide":"bottom","toNode":"d468461955e910eb","toSide":"top"},
+		{"id":"ea01d10e16c5fd93","fromNode":"d3a47522903cc62a","fromSide":"bottom","toNode":"9bfef4fb7cf33467","toSide":"top"},
+		{"id":"a6d49e40e71e7cdb","fromNode":"a2de618461fbde9c","fromSide":"top","toNode":"8080fbc8eabc6c76","toSide":"bottom"},
+		{"id":"6eaa9882f2b4ab0b","fromNode":"a2de618461fbde9c","fromSide":"left","toNode":"2e5ae966a18a4009","toSide":"right"},
+		{"id":"894cdda64f5ba1d7","fromNode":"a2de618461fbde9c","fromSide":"bottom","toNode":"f25b85168506f2a6","toSide":"top"}
+	]
+}
